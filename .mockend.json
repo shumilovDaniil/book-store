@@ -1,10 +1,5 @@
 {
   "Book": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    },
-
     "id": 123,
     "title": "string",
     "img": "string",

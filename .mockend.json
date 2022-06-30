@@ -1,14 +1,14 @@
 {
-  "Post": {
+  "Book": {
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+    },
+
+    "id": 123,
+    "title": "string",
+    "img": "string",
+    "category": ["cat1", "cat2"],
+    "author": ["danya", "martin"]
   }
 }
